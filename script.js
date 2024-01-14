@@ -101,8 +101,8 @@ $(document).ready(function () {
   function display5DayForecast(data) {
     var forecastSection = $("#forecast");
     forecastSection.html("");
-
-    for (var i = 0; i < data.list.length; i += 8) {
+    //For loop skips 8 iterations because the OpenWeatherMap API gets weather data in 3 hour invtervals so skipping 8 the next day's weather forecast can be found.
+    for (var i = 1; i < data.list.length; i += 8) {
       var forecastDate = dayjs(data.list[i].dt * 1000);
       var iconUrl =
         "http://openweathermap.org/img/w/" +
