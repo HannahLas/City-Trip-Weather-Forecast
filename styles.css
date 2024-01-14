@@ -1,0 +1,25 @@
+/* Styles the weather section for today's weather */
+#today {
+    background-color: rgb(233, 229, 238);
+    position: absolute;
+    top: 0;
+    width:100%;
+    text-align: center;
+}
+
+/* Styles the 5 day forecast section */
+#forecast {
+   display:flex;
+    position: absolute;
+    top: 40%;
+    background-color: rgb(190, 214, 236);
+    text-align: center;
+    width:100%; 
+    
+
+}
+/* Styles the 5 day Forecast heading */
+h3{
+    position: absolute;
+    top: 30%;
+}
