@@ -11,7 +11,7 @@
 #forecast {
    display:flex;
     position: absolute;
-    top: 22%;
+    top: 30vh;
     background-color: rgb(190, 214, 236);
     text-align: center;
     width:100%; 
